@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+*{
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: url(./assets/imagenes/historia-programacion.jpg) 50% 0 fixed ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.fondo-imagen {
+    background: rgba(47, 54, 69, 0.7);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+     text-align: center;
+       }
+    
+nav {position:fixed;
+    top: 0px; 
+    display:flex;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    transition: background-color 1s;
+    padding: 100px 20px;}
+.fondoNav{
+        background-color: #FFFFFF;
+    
+    }
+.fondoNav>ul>li>a{
+        color: #2F3645;
+        text-shadow: 1px 1px white, 2px 3px gray;
+    }
+ .lista{  
+        text-decoration: none;
+       font-size: 1.5em;
+       font-weight: 500;
+       color: #FFFFFF;
+       text-shadow: 1px 1px gray, 2px 3px black;}
+       
+
+ .item { display: inline-block;
+        margin-right: 20px;}
+        
+.item:hover {
+        cursor: pointer; 
+        transform: translate(3px, 2px);
+}
+
+h1{ font-weight: 300;
+    padding: 80px 10px;
+    font-size: calc(3em + 18px); 
+    color: #eeeeee;
+    text-shadow: 2px 2px #946262, 6px 6px black;
+    text-justify: center;}
+
+/*tarjetas*/
+
+.seccion { 
+   width:100%;
+   height: 100px;
+   display:flex;
+}
+
+.tarjeta {
+    display: flex;
+    justify-content: center;
+    padding: 5%;
+    width:100%;
+}
+
+
+.ti { font-size: 50px;  
+    color: #2F3645;
+    font-weight: 100;
+    text-shadow: 1px 2px white, 2px 2px gray;
+}
+
+.imagen { width: 50%;
+}
+p {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;  
+    width: 50%;
+    text-align: left;
+    
+}
+
+h2{
+    text-align: right;
+    width:50%;
+margin-left: 45%;
+margin-bottom: 0px;    
+}
+.texto2{
+   padding:5%;
+}
+h3 {margin-top: 0%;
+    margin-bottom: 20px;
+    margin-right: 70px;  
+    margin-left: 70px;  
+    text-align: left;
+}
+
+
+h2 {text-align: center;
+    width:45% ;
+    margin-left: 50%;
+    margin-bottom: -150px;
+    margin-top: 80px;
+  }
+.imagen-1{
+    margin-top: -200px;
+}
+
+h3{
+    margin-top: 100px;
+    margin-left:70px;
+    width: 50%;
+    text-align: center;
+
+}
+.seccion2{
+    margin-top: -200px;
+
+}
+h4{ text-align: center;
+    width:550px;
+    margin-left: 750px;
+    margin-top: 50px;
+   
+}
+
+.texto2{
+  text-align: left;
+  padding: 2px;
+  margin-right: 10px;
+
+}
+
+.texto3 {    
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.seccion3{
+    padding: 0px;
+    margin-top: -100px;
+}
+
+
+/*footer*/
+
+h5 { font-size: 50px;  
+    color: #2F3645;
+    font-weight: 100;
+    text-shadow: 1px 2px white, 2px 2px gray;
+                   }
+
+
+.contenedorVideo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0px;
+    gap: 80px;
+
+}
+.barra{
+    background-color:#2F3645;;
+    border-radius: 10px;
+    padding: 20px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.botonera{
+    display: flex;
+    gap: 20px;
+}
+.container{
+    padding: 5px;
+    background-color: #2F3645;;
+    width: 70%;
+}
+
+#play,#pause{
+   width: 80px;
+}
+
+.botonesVideo:active{
+    box-shadow: 0px 0px darkgray;
+    transform: translate(3px, 2px);
+}
+
+.logo{width: 10%;
+}
+
+footer{
+    background: #2F3645;
+    height: 70px;
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    padding:  90px;
+    color: #f5f5f5}
+    
+.textofoot{
+    justify-content: right;
+    margin-left: 450px;
+}
+    h6 {justify-content: left;
+    font-size: 14px;
+    text-align: center;
+     margin-left: 100px;
+    
+}
+
+
+
+
